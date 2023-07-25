@@ -25,12 +25,11 @@
     <script
 		src="https://code.jquery.com/jquery-3.4.1.js"
 		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-		crossorigin="anonymous">
-    </script>
+		crossorigin="anonymous"></script>
 	  <script>
 		  function SubForm (){
 			  $.ajax({
-				  url:"https://api.apispreadsheets.com/data/MGkG4Z1RgAIRYicR/",
+				  url:"https://api.apispreadsheets.com/data/qYUkNX8gn7qLlExv/",
 				  type:"post",
 				  data:$("#myForm").serializeArray(),
 				  success: function(){
@@ -83,11 +82,11 @@
           <source src="assets/images/video.mp4" type="video/mp4" />
       </video>
 
-      <div class="video-overlay header-text">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="caption">
+    <div class="video-overlay header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="caption">
               <h2>Välkommen till vårt bröllop!</h2>
               <p>Kom och fira vår livs dag tillsammans med oss!
                 
@@ -99,12 +98,140 @@
                 <br>
                 Vänliga hälsningar
                 <h3>Clara & Linus</h3>
-                </p>
-          </div>
-              </div>
+              </p>
             </div>
           </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="count-area-content">
+                        <div class="count-digit"id="days"></div>
+                        <div class="count-title">Dagar</div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="count-area-content">
+                        <div class="count-digit"id="hours"></div>
+                        <div class="count-title">Timmar</div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="count-area-content">
+                        <div class="count-digit" id="minutes"></div>
+                        <div class="count-title">Minuter</div>
+                      </div>
+                    <div class="col-12">
+                      <div class="count-area-content">
+                        <div class="count-digit" id="seconds"></div>
+                        <div class="count-title">Sekunder</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- </div>  -->
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+  </section>
+  <!-- <section class="contact-us" id="contact"> -->
+    <section class="contact-us" id="contact">
+    <form id="myForm">
+        <div class="col-lg-12">
+          <h2>O.S.A</h2>
+        </div>
+        <label>Namn</label>
+        <br/>
+        <div class="col-lg-4">
+          <fieldset>
+            <input name="namn" type="text" id="name" placeholder="Ditt namn.." required="">
+          </fieldset>
+        </div>
+        <br/>
+        <label>Antal personer i sällskap</label>
+        <br/>
+        <div class="col-lg-4">
+          <fieldset>
+          <input name="antal" type="number" id="antal" placeholder="Antal personer i ditt sällskap.." required="">
+          </fieldset>
+        </div>
+        <br/>
+        <label>Sällskap</label>
+        <br/>
+        <div class="col-lg-12">
+          <fieldset>
+            <textarea name="namn_sällskap" type="text" class="form-control" id="Sällskap" placeholder="Namn på personer i ditt sällskap.." required=""></textarea>
+          </fieldset>
+        </div>
+        <br/>
+        <label>Specialkost</label>
+        <br/>
+        <div class="col-lg-12">
+          <fieldset>
+            <textarea name="specialkost" type="text" class="form-control" id="specialkost" placeholder="Allergier/specialkost..(Ange även vem specialkosten tillhör om det inte är du själv)" required=""></textarea>
+          </fieldset>
+        </div>
+        <br/>
+        <br/>
+        <div class="col-lg-12">
+          <fieldset>
+            <button type="submit" id="form-submit"  class="button" onclick="SubForm()">SKICKA</button>
+          </fieldset>
+        </div>
+      </form>
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-lg-9 align-self-center">
+          <div class="row">
+            <div class="col-lg-12">
+              <form id="contact" action="" method="post"> -->
+                <!-- <form id="myForm"> 
+                  <div class="row">
+                    <div class="col-lg-12"> x
+                      <h2>O.S.A</h2>
+                    </div>
+                    <div class="col-lg-4">  x
+                      <fieldset>
+                        <input name="namn" type="text" id="name" placeholder="Ditt namn.." required="">
+                      </fieldset>
+                    </div>
+                    <div class="col-lg-4">  x
+                      <fieldset>
+                      <input name="antal" type="number" id="antal" placeholder="Antal personer i ditt sällskap.." required="">
+                    </fieldset>
+                    </div>
+                    <div class="col-lg-12"> x
+                      <fieldset>
+                        <textarea name="namn_sällskap" type="text" class="form-control" id="Sällskap" placeholder="Namn på personer i ditt sällskap.." required=""></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-lg-12"> x
+                      <fieldset>
+                        <textarea name="specialkost" type="text" class="form-control" id="specialkost" placeholder="Allergier/specialkost..(Ange även vem specialkosten tillhör om det inte är du själv)" required=""></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-lg-12"> x
+                      <fieldset>
+                        <button type="submit" id="form-submit"  class="button" onclick="SubForm()">SKICKA</button>
+                      </fieldset>
+                    </div>
+                  </div>
+                </form> -->
+            <!-- </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
   </section>
 
   <section class="upcoming-meetings" id="meetings">
@@ -521,24 +648,28 @@
       <p>&copy; Untitled. Hemsida: Clara Wiman, Design: Linus Kanth</p>
     </div>
 
-    <form id="myForm">
+    <!-- <form id="myForm">
       <label>Namn</label>
       <br/>
-      <input name="full_name" />
+      <input name="namn" />
       <br/>
       <label>Mail</label>
       <br/>
-      <input name="email" />
+      <input name="antal" />
       <br/>
       <label>Meddelande</label>
       <br/>
-      <textarea name="message">
+      <textarea name="namn_sällskap">
+      </textarea>
+      <br/>
+      <br/>
+      <textarea name="specialkost">
       </textarea>
       <br/>
       <br/>
     </form>
     <button onclick="SubForm()">Submit</button>
-  </section>
+  </section> -->
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
