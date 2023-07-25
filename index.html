@@ -31,7 +31,7 @@
 			  $.ajax({
 				  url:"https://api.apispreadsheets.com/data/qYUkNX8gn7qLlExv/",
 				  type:"post",
-				  data:$("#contact").serializeArray(),
+				  data:$("#myForm").serializeArray(),
 				  success: function(){
 					  alert("Form Data Submitted :)")
 				  },
@@ -144,7 +144,8 @@
   </section>
   <!-- <section class="contact-us" id="contact"> -->
     <section class="contact-us" id="contact">
-    <form id="contact" action="">
+      <form id="contact" action="">
+    <form id="myForm">
       <div class="row">
         <div class="col-lg-12">
           <h2>O.S.A</h2>
@@ -188,6 +189,7 @@
           </fieldset>
         </div>
       </div>
+      </form>
     </form>
     <!-- <div class="container">
       <div class="row">
