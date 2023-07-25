@@ -1203,6 +1203,10 @@ progress {
     flex: 0 0 auto;
     width: 75%;
   }
+  #OSA .container .col-lg-9 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
   .col-lg-10 {
     flex: 0 0 auto;
     width: 83.33333333%;
