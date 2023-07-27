@@ -1330,6 +1330,12 @@ section.contact-us .right-info ul li span {
   font-weight: 700;
 }
 
+#login {
+  width: 75%;
+  position: absolute;
+  left: 12.5%;
+}
+
 .footer {
   text-align: center;
   margin-top: 140px;
