@@ -1331,9 +1331,14 @@ section.contact-us .right-info ul li span {
 }
 
 #login {
-  width: 75%;
-  position: absolute;
-  left: 12.5%;
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+#rubrik {
+  position: relative;
+  left: 37.5%;
+  padding: 20px;
 }
 
 .footer {
