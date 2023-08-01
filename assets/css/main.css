@@ -1520,3 +1520,10 @@ responsive
     color: #1f272b;
   }
 }
+
+#mejl {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
