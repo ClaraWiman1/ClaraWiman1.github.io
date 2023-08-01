@@ -196,6 +196,9 @@ body {
   .mobile-bottom-fix-big {
     margin-bottom: 60px;
   }
+  #Login {
+    width: 100%;
+  }
 }
 
 .osa-button a {
@@ -1330,15 +1333,25 @@ section.contact-us .right-info ul li span {
   font-weight: 700;
 }
 
+@media (max-width: 992px) {
+  #Login {
+    width: 100% !important;
+  }
+}
+
 #login {
   width: 50%;
-  position: relative;
-  left: 25%;
+  margin: auto;
 }
 #rubrik {
-  position: relative;
-  left: 37.5%;
+  width: auto;
+  margin: auto;
   padding: 20px;
+}
+#rubrik #text {
+  margin: auto;
+  padding: 20px;
+  width: fit-content;
 }
 
 .footer {
