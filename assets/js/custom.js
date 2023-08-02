@@ -1,6 +1,7 @@
 (function ($) {
   "use strict";
 
+  // Gör så att headern följer med vid scrollning
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
     var box = $(".header-text").height();

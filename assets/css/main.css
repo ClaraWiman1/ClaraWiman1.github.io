@@ -3,7 +3,7 @@
 font & reset css
 --------------------------------------------- 
 */
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900|Tangerine|Tenor Sans");
 /* 
 ---------------------------------------------
 reset
@@ -1339,6 +1339,7 @@ section.contact-us .right-info ul li span {
 #login {
   width: 50%;
   margin: auto;
+  /* font-family: "Tenor", sans; */
 }
 #rubrik {
   width: auto;
@@ -1346,6 +1347,9 @@ section.contact-us .right-info ul li span {
   padding: 20px;
 }
 #rubrik #text {
+  font-family: "Tangerine", serif;
+  font-size: 88px;
+  text-shadow: 4px 4px 4px #aaa;
   margin: auto;
   padding: 20px;
   width: fit-content;
