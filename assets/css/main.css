@@ -1153,11 +1153,19 @@ section.our-facts {
   /* background-size: 100%; */
   /* min-width: 100%;
   min-height: 100vh; */
-  max-width: 100%;
-  height: auto;
+  /* max-width: 100%;
+  height: auto; */
   /* max-height: 100vh; */
   /* object-fit: cover;
   z-index: -1; */
+}
+
+#time {
+  min-width: 100%;
+  min-height: 100vh;
+  max-width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
 }
 
 section.our-facts h2 {
