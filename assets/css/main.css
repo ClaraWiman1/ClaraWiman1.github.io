@@ -1150,6 +1150,12 @@ section.our-facts {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 140px 0px 125px 0px;
+  min-width: 100%;
+  min-height: 100vh;
+  max-width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+  z-index: -1;
 }
 
 section.our-facts h2 {
