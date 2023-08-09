@@ -132,7 +132,7 @@ a {
 }
 
 a:hover {
-  color: #905e60;
+  color: rgba(219, 190, 187, 1);
 }
 
 h1,
