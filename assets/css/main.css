@@ -906,6 +906,11 @@ section.upcoming-meetings .categories .osa-button a {
 apply now
 ---------------------------------------------
 */
+@media (max-width: 767.98px) {
+  section.apply-now {
+    background-image: none !important;
+  }
+}
 
 section.apply-now {
   background-image: url(../images/rauk1.jpg);
@@ -991,7 +996,7 @@ Boende förslag
 */
 
 section.boende-förslag {
-  background-image: url(../images/meetings-bg.jpg);
+  /* background-image: url(../images/meetings-bg.jpg); */
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1142,7 +1147,11 @@ section.boende-förslag {
 our facts
 ---------------------------------------------
 */
-
+@media (max-width: 767.98px) {
+  section.our-facts {
+    background-image: none !important;
+  }
+}
 section.our-facts {
   background-image: url(../images/bild.jpg);
   background-position: center center;
@@ -1230,7 +1239,7 @@ contact us
 */
 
 section.contact-us {
-  background-image: url(../images/rauk.jpg);
+  /* background-image: url(../images/rauk.jpg); */
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
