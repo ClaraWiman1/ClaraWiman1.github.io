@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+
+    <title>Clara🤍Linus</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <!-- <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css"> -->
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="col-lg-9 align-self-center" id="rubrik">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-4"></div>
+              <br />
+              <div>
+                <h1 id="text">Önskelista</h1>
+              </div>
+              <br />
+              <div class="col-lg-12"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <section class="contact-us" id="login">
+      <div class="container">
+        <div class="col-lg-9 align-self-center">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="row">
+                <div class="col-lg-12">
+                  <h4>Lösenord</h4>
+                </div>
+                <div class="col-lg-4">
+                  <fieldset>
+                    <input
+                      type="password"
+                      id="password"
+                      placeholder="Skriv in lösenord.."
+                    />
+                  </fieldset>
+                </div>
+                <br />
+                <div class="col-lg-12">
+                  <fieldset>
+                    <button class="login-button" onclick="loginfunc()">
+                      Logga in
+                    </button>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section class="upcoming-meetings" id="meetings">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="meeting-item">
+                  <div class="thumb">
+                    <!-- <a href="#"
+                      ><img src="assets/images/kyrka.jpg" alt="Visby Domkyrka"
+                    /></a> -->
+                  </div>
+                  <div class="down-content">
+                    <a href="#"><h4>Bidrag till bröllopsresa</h4></a>
+                    <p>Pengar</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="meeting-item">
+                  <div class="thumb">
+                    <!-- <a href="#"
+                      ><img
+                        src="assets/images/festlada.jpg"
+                        alt="Nygårdsherrgård"
+                    /></a> -->
+                  </div>
+                  <div class="down-content">
+                    <div class="date">
+                      <h6><span></span></h6>
+                    </div>
+                    <a href="#"><h4>Brödrost</h4></a>
+                    <p>Grattis</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="meeting-item">
+                  <div class="thumb">
+                    <!-- <a href="#"
+                      ><img
+                        src="assets/images/festlada.jpg"
+                        alt="Nygårdsherrgård"
+                    /></a> -->
+                  </div>
+                  <div class="down-content">
+                    <div class="date">
+                      <h6><span></span></h6>
+                    </div>
+                    <a href="#"><h4>Moccamaster</h4></a>
+                    <p>kaffe</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="meeting-item">
+                  <div class="thumb">
+                    <!-- <a href="#"
+                      ><img src="assets/images/meeting-03.jpg" alt=""
+                    /></a> -->
+                  </div>
+                  <div class="down-content">
+                    <a href="#"><h4>Glas</h4></a>
+                    <p>Behövs alltid</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="meeting-item">
+                  <div class="thumb">
+                    <!-- <a href="#"
+                      ><img src="assets/images/meeting-04.jpg" alt=""
+                    /></a> -->
+                  </div>
+                  <div class="down-content">
+                    <a href="#"><h4>Matberedare</h4></a>
+                    <p>Så Clara kan baka kakor</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="meeting-item">
+                  <div class="thumb">
+                    <!-- <a href="https://www.nygardsherrgard.se/"
+                      ><img
+                        src="assets/images/festlada.jpg"
+                        alt="Nygårdsherrgård"
+                    /></a> -->
+                  </div>
+                  <div class="down-content">
+                    <div class="date">
+                      <h6><span></span></h6>
+                    </div>
+                    <a href="#"><h4>Mixer</h4></a>
+                    <p>Till smoothies</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function loginfunc() {
+        var pass = document.getElementById("password").value;
+        if (pass == "KanthWiman") {
+          window.location.assign("home.html"); //Här ska man komma in i önskelistan- inte till en ny sida
+        } else {
+          alert("Fel lösen!");
+        }
+      }
+    </script>
+  </body>
+</html>
