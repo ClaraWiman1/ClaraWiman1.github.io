@@ -250,6 +250,7 @@ header
 
 .background-header {
   background-color: #fff !important;
+  opacity: 0.85;
   height: 80px !important;
   position: fixed !important;
   top: 0 !important;
@@ -774,7 +775,7 @@ upcoming meetings
 ---------------------------------------------
 */
 
-section.upcoming-meetings {
+section.info-sec {
   background-color: rgba(219, 190, 187, 1);
   /* background-position: center center; */
   /* background-attachment: fixed; */
@@ -789,18 +790,18 @@ section.önskelista {
   padding-bottom: 110px;
 }
 
-section.upcoming-meetings .section-heading {
+section.info-sec .section-heading {
   text-align: center;
 }
 
-section.upcoming-meetings .categories {
+section.info-sec .categories {
   background-color: #fff;
   border-radius: 20px;
   padding: 40px;
   margin-right: 45px;
 }
 
-section.upcoming-meetings .categories h4 {
+section.info-sec .categories h4 {
   font-size: 18px;
   font-weight: 600;
   color: #1f272b;
@@ -809,53 +810,53 @@ section.upcoming-meetings .categories h4 {
   border-bottom: 1px solid #eee;
 }
 
-section.upcoming-meetings .categories ul li {
+section.info-sec .categories ul li {
   display: inline-block;
   margin-bottom: 15px;
 }
 
-section.upcoming-meetings .categories ul li a {
+section.info-sec .categories ul li a {
   font-size: 15px;
   color: #1f272b;
   font-weight: 500;
   transition: all 0.3s;
 }
 
-section.upcoming-meetings .categories ul li a:hover {
+section.info-sec .categories ul li a:hover {
   color: #905e60;
 }
 
-section.upcoming-meetings .categories .osa-button {
+section.info-sec .categories .osa-button {
   border-top: 1px solid #eee;
   padding-top: 30px;
   margin-top: 15px;
 }
 
-section.upcoming-meetings .categories .osa-button a {
+section.info-sec .categories .osa-button a {
   width: 100%;
   text-align: center;
 }
 
-.meeting-item {
+.info-ruta {
   margin-bottom: 30px;
 }
 
-.meeting-item .thumb {
+.info-ruta .thumb {
   position: relative;
 }
 
-.meeting-item .thumb img {
+.info-ruta .thumb img {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }
 
-.meeting-item .thumb .price {
+.info-ruta .thumb .price {
   position: absolute;
   left: 20px;
   top: 20px;
 }
 
-.meeting-item .thumb .price span {
+.info-ruta .thumb .price span {
   font-size: 16px;
   color: #1f272b;
   font-weight: 600;
@@ -864,40 +865,40 @@ section.upcoming-meetings .categories .osa-button a {
   border-radius: 10px;
 }
 
-.meeting-item .down-content {
+.info-ruta .down-content {
   background-color: #fff;
   padding: 30px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
-.meeting-item .wish {
+.info-ruta .wish {
   background-color: #fff;
   padding: 30px;
   border-radius: 15px;
 }
 
-.meeting-item .down-content .date {
+.info-ruta .down-content .date {
   float: left;
   text-align: center;
   display: inline-block;
   margin-right: 20px;
 }
 
-.meeting-item .down-content .date h6 {
+.info-ruta .down-content .date h6 {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 600;
   color: #905e60;
 }
 
-.meeting-item .down-content .date span {
+.info-ruta .down-content .date span {
   display: block;
   color: #1f272b;
   font-size: 22px;
   margin-top: 7px;
 }
 
-.meeting-item .down-content h4 {
+.info-ruta .down-content h4 {
   font-size: 18px;
   color: #1f272b;
   font-weight: 600;
@@ -905,7 +906,7 @@ section.upcoming-meetings .categories .osa-button a {
   margin-bottom: 15px;
 }
 
-.meeting-item .down-content p {
+.info-ruta .down-content p {
   margin-left: 50px;
   color: #1f272b;
   font-size: 14px;
@@ -917,12 +918,12 @@ apply now
 ---------------------------------------------
 */
 @media (max-width: 767.98px) {
-  section.apply-now {
+  section.turist {
     background-image: none !important;
   }
 }
 
-section.apply-now {
+section.turist {
   background-image: url(../images/rauk1.jpg);
   background-position: center center;
   background-attachment: fixed;
@@ -931,13 +932,13 @@ section.apply-now {
   padding: 140px 0px;
 }
 
-section.apply-now .item {
-  background-color: rgba(250, 250, 250, 0.15);
+section.turist .item {
+  background-color: rgba(250, 250, 250, 0.2);
   padding: 40px;
   margin-bottom: 30px;
 }
 
-section.apply-now .item h3 {
+section.turist .item h3 {
   color: #fff;
   text-transform: uppercase;
   font-size: 24px;
@@ -945,7 +946,7 @@ section.apply-now .item h3 {
   margin-bottom: 20px;
 }
 
-section.apply-now .item p {
+section.turist .item p {
   color: #fff;
   margin-bottom: 20px;
 }
@@ -1248,7 +1249,7 @@ contact us
 --------------------------------------------- 
 */
 
-section.contact-us {
+section.form {
   /* background-image: url(../images/rauk.jpg); */
   background-position: center center;
   background-attachment: fixed;
@@ -1257,7 +1258,7 @@ section.contact-us {
   padding: 140px 0px 70px 0px;
 }
 
-section.contact-us #contact,
+section.form #contact,
 #myForm,
 #login {
   background-color: #fff;
@@ -1265,7 +1266,7 @@ section.contact-us #contact,
   padding: 40px;
 }
 
-section.contact-us #contact h2,
+section.form #contact h2,
 #myForm h2,
 #login h2 {
   text-transform: uppercase;
@@ -1277,7 +1278,7 @@ section.contact-us #contact h2,
   font-weight: 700;
 }
 
-section.contact-us #contact input,
+section.form #contact input,
 #myForm input,
 #login input {
   width: 100%;
@@ -1294,7 +1295,7 @@ section.contact-us #contact input,
   margin-bottom: 30px;
 }
 
-section.contact-us #contact textarea,
+section.form #contact textarea,
 #myForm textarea {
   width: 100%;
   min-height: 140px;
@@ -1311,7 +1312,7 @@ section.contact-us #contact textarea,
   margin-bottom: 30px;
 }
 
-section.contact-us #contact button,
+section.form #contact button,
 #myForm button,
 #login button {
   font-size: 13px;
@@ -1327,39 +1328,39 @@ section.contact-us #contact button,
   outline: none;
 }
 
-section.contact-us #contact button:hover,
+section.form #contact button:hover,
 #myForm button:hover,
 #login button:hover {
   opacity: 0.9;
 }
 
-section.contact-us .right-info {
+section.form .right-info {
   background-color: #905e60;
   border-radius: 20px;
   padding: 32px;
 }
 
-section.contact-us .right-info ul li {
+section.form .right-info ul li {
   display: inline-block;
   border-bottom: 1px solid rgba(250, 250, 250, 0.15);
   margin-bottom: 30px;
   padding-bottom: 30px;
 }
 
-section.contact-us .right-info ul li:last-child {
+section.form .right-info ul li:last-child {
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom: none;
 }
 
-section.contact-us .right-info ul li h6 {
+section.form .right-info ul li h6 {
   color: #fff;
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
-section.contact-us .right-info ul li span {
+section.form .right-info ul li span {
   display: block;
   font-size: 18px;
   color: #fff;
@@ -1519,11 +1520,11 @@ responsive
     margin-top: 60px;
   }
 
-  section.upcoming-meetings {
+  section.info-sec {
     padding-top: 400px;
   }
 
-  section.upcoming-meetings .categories {
+  section.info-sec .categories {
     margin-right: 0px;
     margin-bottom: 30px;
   }
@@ -1541,7 +1542,7 @@ responsive
     margin-top: 15px;
   }
 
-  section.contact-us #contact,
+  section.form #contact,
   #myForm {
     margin-bottom: 30px;
   }
