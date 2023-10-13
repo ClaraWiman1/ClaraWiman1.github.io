@@ -780,7 +780,12 @@ section.upcoming-meetings {
   /* background-attachment: fixed; */
   /* background-repeat: no-repeat; */
   background-size: cover;
-  padding-top: 230px;
+  padding-top: 150px;
+  padding-bottom: 110px;
+}
+section.önskelista {
+  background-color: rgba(219, 190, 187, 1);
+  background-size: cover;
   padding-bottom: 110px;
 }
 
@@ -864,6 +869,11 @@ section.upcoming-meetings .categories .osa-button a {
   padding: 30px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+}
+.meeting-item .wish {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
 }
 
 .meeting-item .down-content .date {
