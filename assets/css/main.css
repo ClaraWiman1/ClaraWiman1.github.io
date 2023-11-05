@@ -998,6 +998,7 @@ section.turist .item p {
 .accordion-body > .content {
   padding: 20px;
   padding-top: 0;
+  transition: visibility 250ms ease-in-out;
 }
 
 /* 

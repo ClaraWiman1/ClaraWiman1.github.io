@@ -31,26 +31,28 @@
       columnWidth: ".all",
     },
   });
-
+  //////Öppna och stäng små kapitlerna(sevärdigheter&frågor)
   const Accordion = {
     settings: {
       // Expand the first item by default
       first_expanded: false,
-      // Allow items to be toggled independently
-      toggle: false,
+      // Allow items to be toggled independently    //vill kunna stänga hur man vill
+      toggle: true,
     },
 
     openAccordion: function (toggle, content) {
       if (content.children.length) {
         toggle.classList.add("is-open");
         let final_height = Math.floor(content.children[0].offsetHeight);
-        content.style.height = final_height + "px";
+        content.style.height = final_height + "px"; //öppnar upp
+        content.style.visibility = "visible";
       }
     },
 
     closeAccordion: function (toggle, content) {
       toggle.classList.remove("is-open");
-      content.style.height = 0;
+      content.style.height = 0; //stänger ihop
+      content.style.visibility = "collapse";
     },
 
     init: function (el) {
@@ -58,7 +60,7 @@
 
       // Override default settings with classes
       let is_first_expanded = _this.settings.first_expanded;
-      if (el.classList.contains("is-first-expanded")) is_first_expanded = true;
+      // if (el.classList.contains("is-first-expanded")) is_first_expanded = true;
       let is_toggle = _this.settings.toggle;
       if (el.classList.contains("is-toggle")) is_toggle = true;
 
@@ -70,13 +72,14 @@
         const section = sections[i];
         const toggle = all_toggles[i];
         const content = all_contents[i];
+        content.style.visibility = "collapse";
 
         // Click behavior
         toggle.addEventListener("click", function (e) {
           if (!is_toggle) {
             // Hide all content areas first
             for (let a = 0; a < all_contents.length; a++) {
-              _this.closeAccordion(all_toggles[a], all_contents[a]);
+              _this.closeAccordion(all_toggles[a], all_contents[a]); //Behövs ej??
             }
 
             // Expand the clicked item
