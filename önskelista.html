@@ -86,7 +86,12 @@
                   </div>
                   <div class="wish">
                     <a href="#"><h4>Bidrag till bröllopsresa</h4></a>
-                    <p>Pengar</p>
+                    <p>
+                      Mest av allt önskar vi oss bidrag till vår bröllopsresa
+                      samt renovering av hus. Vill du ge ett bidrag får du gärna
+                      sätta in en gåva på vårt konto hos Swedbank clearingnummer
+                      8424-4 kontonr 734689119-0.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -175,7 +180,15 @@
         </div>
       </div>
     </section>
-
+    <script>
+      var input = document.getElementById("password");
+      input.addEventListener("keypress", function (event) {
+        // If the user presses the "Enter" key on the keyboard
+        if (event.key === "Enter") {
+          loginfunc();
+        }
+      });
+    </script>
     <script>
       function loginfunc() {
         var pass = document.getElementById("password").value;
