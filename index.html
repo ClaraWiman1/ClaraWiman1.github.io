@@ -74,8 +74,17 @@
     </section>
 
     <script>
-      function func() {
-        var pass = document.getElementById("password").value;
+      var input = document.getElementById("password");
+      input.addEventListener("keypress", function (event) {
+        // If the user presses the "Enter" key on the keyboard
+        if (event.key === "Enter") {
+          func(input);
+        }
+      });
+    </script>
+    <script>
+      function func(input) {
+        var pass = input.value;
         if (pass == "ClaraÄrBäst") {
           window.location.assign("home.html");
         } else {
