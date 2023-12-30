@@ -32,10 +32,10 @@
           type:"post",
           data:$("#myForm").serializeArray(),
           success: function(){
-            alert("Form Data Submitted :)")
+            // alert("Form Data Submitted :)")
           },
           error: function(){
-            alert("There was an error :(")
+            // alert("There was an error :(")
           }
         });
       }
@@ -258,7 +258,7 @@
                   <br/>
                   <div class="col-lg-12">
                     <fieldset>
-                      <textarea name="namn_sällskap" type="text" class="form-control" id="Sällskap" placeholder="Namn på personer i ditt sällskap.."></textarea>
+                      <textarea name="namn_sällskap" type="text" class="form-control" id="Sällskap" placeholder="Namn på personer i ditt sällskap(om du anmäler flera samtidigt).."></textarea>
                     </fieldset>
                   </div>
                   <br/>
@@ -267,6 +267,13 @@
                   <div class="col-lg-12">
                     <fieldset>
                       <textarea name="specialkost" type="text" class="form-control" id="specialkost" placeholder="Allergier.."></textarea>
+                    </fieldset>
+                  </div>
+                  <div>
+                    <fieldset>
+                      <h5>Intresserad av transport mellan kyrka och festlokal</h5>
+                        <input type="radio" id="check" name="transport"/> 
+                        <label for="check">Ja - Jag vill ha transport till festlokalen</label> 
                     </fieldset>
                   </div>
                   <br/>

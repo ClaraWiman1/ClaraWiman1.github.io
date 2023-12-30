@@ -1296,6 +1296,14 @@ section.form #contact input,
   margin-bottom: 30px;
 }
 
+/* input[type="radio"] {
+  vertical-align: middle;
+} */
+#check {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 section.form #contact textarea,
 #myForm textarea {
   width: 100%;
