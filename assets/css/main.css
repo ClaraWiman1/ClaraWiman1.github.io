@@ -1165,13 +1165,6 @@ our facts
   section.our-facts {
     background-image: none !important;
   }
-  #time {
-    min-width: 100% !important;
-    min-height: 100vh !important;
-    max-width: 100% !important;
-    /* max-height: 100vh !important; */
-    object-fit: cover !important;
-  }
 }
 section.our-facts {
   background-image: url(../images/bild.jpg);
@@ -1189,8 +1182,16 @@ section.our-facts {
   /* object-fit: cover;
   z-index: -1; */
 }
-/* @media (max-width: 767.98px) {
-} */
+
+@media (max-width: 767.98px) {
+  #time {
+    min-width: 100% !important;
+    min-height: 100vh !important;
+    max-width: 100% !important;
+    /* max-height: 100vh !important; */
+    object-fit: cover !important;
+  }
+}
 
 section.our-facts h2 {
   font-size: 38px;
@@ -1427,6 +1428,12 @@ section.form .right-info ul li span {
 
 .footer p a {
   color: #905e60;
+}
+
+#tillbaka {
+  height: auto;
+  width: auto;
+  margin: 2%;
 }
 
 /*
