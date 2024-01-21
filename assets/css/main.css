@@ -782,7 +782,7 @@ section.info-sec {
   /* background-repeat: no-repeat; */
   background-size: cover;
   padding-top: 80px;
-  padding-bottom: 110px;
+  padding-bottom: 80px;
 }
 section.önskelista {
   background-color: rgba(219, 190, 187, 1);
@@ -1530,7 +1530,7 @@ responsive
   }
 
   section.info-sec {
-    padding-top: 400px;
+    padding-top: 120px;
   }
 
   section.info-sec .categories {
