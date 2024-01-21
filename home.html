@@ -25,21 +25,21 @@
 		src="https://code.jquery.com/jquery-3.4.1.js"
 		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
 		crossorigin="anonymous"></script>
-    <script>
-      function SubForm (){
-        $.ajax({
-          url:"https://api.apispreadsheets.com/data/I9KsrYr7Ktz2FvlO/",
-          type:"post",
-          data:$("#myForm").serializeArray(),
-          success: function(){
-            // alert("Form Data Submitted :)")
-          },
-          error: function(){
-            // alert("There was an error :(")
-          }
-        });
-      }
-    </script>
+	<script>
+		function SubForm (){
+			$.ajax({
+				url:"https://api.apispreadsheets.com/data/I9KsrYr7Ktz2FvlO/",
+				type:"post",
+				data:$("#myForm").serializeArray(),
+				success: function(){
+					alert("Form Data Submitted :)")
+				},
+				error: function(){
+					alert("There was an error :(")
+				}
+			});
+		}
+	</script>
   </head>
 
   <body>
@@ -101,41 +101,6 @@
               </div>
             </div>
           </div>
-          <!-- <div class="container">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <div class="row">
-                      <div class="col-12">
-                        <div class="count-area-content">
-                          <div class="count-digit"id="days"></div>
-                          <div class="count-title">Dagar</div>
-                        </div>
-                      </div>
-                      <div class="col-12">
-                        <div class="count-area-content">
-                          <div class="count-digit"id="hours"></div>
-                          <div class="count-title">Timmar</div>
-                        </div>
-                      </div>
-                    <div class="col-12">
-                      <div class="count-area-content">
-                        <div class="count-digit" id="minutes"></div>
-                        <div class="count-title">Minuter</div>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <div class="count-area-content">
-                        <div class="count-digit" id="seconds"></div>
-                        <div class="count-title">Sekunder</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
         </div>
       </div>
     </section>
