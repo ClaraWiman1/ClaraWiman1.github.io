@@ -1187,7 +1187,7 @@ section.our-facts {
     min-width: 100% !important;
     min-height: 100vh !important;
     max-width: 100% !important;
-    max-height: 100vh !important;
+    /* max-height: 100vh !important; */
     object-fit: cover !important;
   }
 }
