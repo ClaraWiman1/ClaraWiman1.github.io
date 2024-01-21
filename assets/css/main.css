@@ -1429,10 +1429,16 @@ section.form .right-info ul li span {
 .footer p a {
   color: #905e60;
 }
+@media (max-width: 767px) {
+  #tillbaka img {
+    height: 5% !important;
+    width: 5% !important;
+  }
+}
 
-#tillbaka {
-  height: auto;
-  width: auto;
+#tillbaka img {
+  height: 3%;
+  width: 3%;
   margin: 2%;
 }
 
