@@ -793,7 +793,9 @@ section.önskelista {
 section.info-sec .section-heading {
   text-align: center;
 }
-
+section.form .section-heading {
+  text-align: center;
+}
 section.info-sec .categories {
   background-color: #fff;
   border-radius: 20px;
@@ -1347,6 +1349,12 @@ section.form .right-info {
   background-color: #905e60;
   border-radius: 20px;
   padding: 32px;
+}
+#kontakt {
+  background-color: #905e60;
+  border-radius: 20px;
+  padding: 32px;
+  width: fit-content;
 }
 
 section.form .right-info ul li {
