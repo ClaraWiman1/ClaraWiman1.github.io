@@ -29,13 +29,13 @@
 		function SubForm (){
 			$.ajax({
 				url:"https://api.apispreadsheets.com/data/I9KsrYr7Ktz2FvlO/",
-				type:"post",
+				type:"POST",
 				data:$("#myForm").serializeArray(),
 				success: function(){
-					// alert("Form Data Submitted :)")
+					alert("Form Data Submitted :)")
 				},
 				error: function(){
-					// alert("There was an error :(")
+					alert("There was an error :(")
 				}
 			});
 		}
