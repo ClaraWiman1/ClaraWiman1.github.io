@@ -924,6 +924,11 @@ apply now
     background-image: none !important;
   }
 }
+section.turist img {
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
 
 section.turist {
   background-image: url(../images/rauk1.jpg);
