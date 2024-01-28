@@ -824,7 +824,8 @@ section.info-sec .categories ul li a {
   transition: all 0.3s;
 }
 
-section.info-sec .categories ul li a:hover {
+section.info-sec .categories ul li a:hover,
+ul li a:focus {
   color: #905e60;
 }
 
