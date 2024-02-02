@@ -1630,6 +1630,12 @@ responsive
   align-items: center;
   width: -webkit-fill-available;
 }
+#ja {
+  width: 30px;
+  position: relative;
+  margin-block: auto;
+  margin: 7px;
+}
 
 #spotify {
   height: 278px;
@@ -1643,7 +1649,7 @@ responsive
     font-size: 7px !important;
   }
   #transport_style {
-    font-size: 8px;
+    font-size: 7px !important;
   }
   #myForm h5 {
     font-size: 15px;
@@ -1663,7 +1669,7 @@ responsive
     font-size: 7px !important;
   }
   #transport_style {
-    font-size: 8px;
+    font-size: 7px !important;
   }
   #myForm h5 {
     font-size: 15px;
