@@ -1643,13 +1643,13 @@ responsive
 
 @media screen and (max-width: 767px) {
   .banner__content {
-    font-size: 7px !important;
+    font-size: 9px !important;
   }
   .banner__text {
-    font-size: 7px !important;
+    font-size: 9px !important;
   }
   #transport_style {
-    font-size: 7px !important;
+    font-size: 9px !important;
   }
   #myForm h5 {
     font-size: 15px;
@@ -1663,13 +1663,13 @@ responsive
 }
 @media (max-width: 992px) {
   .banner__content {
-    font-size: 7px !important;
+    font-size: 9px !important;
   }
   .banner__text {
-    font-size: 7px !important;
+    font-size: 9px !important;
   }
   #transport_style {
-    font-size: 7px !important;
+    font-size: 9px !important;
   }
   #myForm h5 {
     font-size: 15px;
