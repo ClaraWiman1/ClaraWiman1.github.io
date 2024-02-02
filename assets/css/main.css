@@ -1654,3 +1654,23 @@ responsive
     height: 240px;
   }
 }
+@media (max-width: 992px) {
+  .banner__content {
+    font-size: 7px !important;
+  }
+  .banner__text {
+    font-size: 7px !important;
+  }
+  #transport_style {
+    font-size: 7px;
+  }
+  #myForm h5 {
+    font-size: 15px;
+  }
+  #myForm h7 {
+    font-size: 11px;
+  }
+  #spotify {
+    height: 240px;
+  }
+}
