@@ -1630,12 +1630,6 @@ responsive
   align-items: center;
   width: -webkit-fill-available;
 }
-#ja {
-  width: 30px;
-  position: relative;
-  margin-block: auto;
-  margin: 7px;
-}
 
 #spotify {
   height: 278px;
