@@ -1630,6 +1630,10 @@ responsive
   align-items: center;
 }
 
+#spotify {
+  height: 278px;
+}
+
 @media (max-width: 767px) {
   .banner__content {
     font-size: 8px;
@@ -1642,5 +1646,8 @@ responsive
   }
   #myForm h7 {
     font-size: 11px;
+  }
+  #spotify {
+    height: 230px;
   }
 }
