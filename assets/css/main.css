@@ -1617,7 +1617,7 @@ responsive
   /* max-width: 50%; */
   margin: 0 auto;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   background-color: #905e60 !important;
 }
 .banner__text {
@@ -1636,7 +1636,10 @@ responsive
 
 @media (max-width: 767px) {
   .banner__content {
-    font-size: 8px;
+    font-size: 8px !important;
+  }
+  .banner__text {
+    font-size: 8px !important;
   }
   #transport_style {
     font-size: 7px;
