@@ -14,23 +14,23 @@
     }
   });
 
-  $(".filters ul li").click(function () {
-    $(".filters ul li").removeClass("active");
-    $(this).addClass("active");
+  // $(".filters ul li").click(function () {
+  //   $(".filters ul li").removeClass("active");
+  //   $(this).addClass("active");
 
-    var data = $(this).attr("data-filter");
-    $grid.isotope({
-      filter: data,
-    });
-  });
+  //   var data = $(this).attr("data-filter");
+  //   $grid.isotope({
+  //     filter: data,
+  //   });
+  // });
 
-  var $grid = $(".grid").isotope({
-    itemSelector: ".all",
-    percentPosition: true,
-    masonry: {
-      columnWidth: ".all",
-    },
-  });
+  // var $grid = $(".grid").isotope({
+  //   itemSelector: ".all",
+  //   percentPosition: true,
+  //   masonry: {
+  //     columnWidth: ".all",
+  //   },
+  // });
   //////Öppna och stäng små kapitlerna(sevärdigheter&frågor)
   const Accordion = {
     settings: {
@@ -110,25 +110,25 @@
     }
   })();
 
-  $(".owl-service-item").owlCarousel({
-    items: 3,
-    loop: true,
-    dots: true,
-    nav: true,
-    autoplay: true,
-    margin: 30,
-    responsive: {
-      0: {
-        items: 1,
-      },
-      600: {
-        items: 2,
-      },
-      1000: {
-        items: 3,
-      },
-    },
-  });
+  // $(".owl-service-item").owlCarousel({
+  //   items: 3,
+  //   loop: true,
+  //   dots: true,
+  //   nav: true,
+  //   autoplay: true,
+  //   margin: 30,
+  //   responsive: {
+  //     0: {
+  //       items: 1,
+  //     },
+  //     600: {
+  //       items: 2,
+  //     },
+  //     1000: {
+  //       items: 3,
+  //     },
+  //   },
+  // });
 
   $(".owl-boende-item").owlCarousel({
     items: 4,
@@ -216,22 +216,22 @@
     });
   });
 
-  function onScroll(event) {
-    var scrollPos = $(document).scrollTop();
-    $(".nav a").each(function () {
-      var currLink = $(this);
-      var refElement = $(currLink.attr("href"));
-      if (
-        refElement.position().top <= scrollPos &&
-        refElement.position().top + refElement.height() > scrollPos
-      ) {
-        $(".nav ul li a").removeClass("active");
-        currLink.addClass("active");
-      } else {
-        currLink.removeClass("active");
-      }
-    });
-  }
+  // function onScroll(event) {
+  //   var scrollPos = $(document).scrollTop();
+  //   $(".nav a").each(function () {
+  //     var currLink = $(this);
+  //     var refElement = $(currLink.attr("href"));
+  //     if (
+  //       refElement.position().top <= scrollPos &&
+  //       refElement.position().top + refElement.height() > scrollPos
+  //     ) {
+  //       $(".nav ul li a").removeClass("active");
+  //       currLink.addClass("active");
+  //     } else {
+  //       currLink.removeClass("active");
+  //     }
+  //   });
+  // }
 
   // Page loading animation
   $(window).on("load", function () {
