@@ -16,14 +16,12 @@
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/fontawesome.css" />
-    <!-- <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css"> -->
     <link rel="stylesheet" href="assets/css/owl.css" />
     <link rel="stylesheet" href="assets/css/lightbox.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
 
   <body>
-    <!-- <h5><a href="home.html">Tillbaka</a></h5> -->
     <div>
       <a id="tillbaka" href="home.html"
         ><img src="assets/images/prev.png" alt="tillbaka"
@@ -47,38 +45,6 @@
         </div>
       </div>
     </div>
-    <!-- <section class="form" id="login">
-      <div class="container">
-        <div class="col-lg-9 align-self-center">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="row">
-                <div class="col-lg-12">
-                  <h4>Lösenord</h4>
-                </div>
-                <div class="col-lg-4">
-                  <fieldset>
-                    <input
-                      type="password"
-                      id="password"
-                      placeholder="Skriv in lösenord.."
-                    />
-                  </fieldset>
-                </div>
-                <br />
-                <div class="col-lg-12">
-                  <fieldset>
-                    <button class="login-button" onclick="loginfunc()">
-                      Logga in
-                    </button>
-                  </fieldset>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
     <section class="önskelista" id="info">
       <div class="container">
         <div class="row">
@@ -132,28 +98,5 @@
         <p>&copy; Untitled. Hemsida: Clara Wiman</p>
       </div>
     </section>
-    <script>
-      var input = document.getElementById("password");
-      input.addEventListener("keypress", function (event) {
-        // If the user presses the "Enter" key on the keyboard
-        if (event.key === "Enter") {
-          loginfunc();
-        }
-      });
-    </script>
-    <script>
-      function loginfunc() {
-        var pass = document.getElementById("password").value;
-        if (pass == "hej") {
-          var x = document.getElementById("info");
-          x.style.display = "block";
-          var y = document.getElementById("login");
-          y.style.display = "none";
-          //   window.location.assign("home.html"); //Här ska man komma in i önskelistan- inte till en ny sida
-        } else {
-          alert("Fel lösen!");
-        }
-      }
-    </script>
   </body>
 </html>
