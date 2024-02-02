@@ -1637,10 +1637,10 @@ responsive
 
 @media screen and (max-width: 767px) {
   .banner__content {
-    font-size: 9px !important;
+    font-size: 12px !important;
   }
   .banner__text {
-    font-size: 9px !important;
+    font-size: 12px !important;
   }
   #transport_style {
     font-size: 9px !important;
@@ -1657,10 +1657,10 @@ responsive
 }
 @media (max-width: 992px) {
   .banner__content {
-    font-size: 9px !important;
+    font-size: 12px !important;
   }
   .banner__text {
-    font-size: 9px !important;
+    font-size: 12px !important;
   }
   #transport_style {
     font-size: 9px !important;
