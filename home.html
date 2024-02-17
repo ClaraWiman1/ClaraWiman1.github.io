@@ -311,7 +311,14 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="accordions is-first-expanded">
+            <div id="image-container">
+              <img src="assets/images/karta.jpg" alt="">
+            </div>
+            <div id="popup-image">
+              <span>&times;</span>
+              <img style="rotate: -90deg;" src="assets/images/karta.jpg" alt="">
+            </div>
+            <!-- <div class="accordions is-first-expanded">
               <article class="accordion">
                 <div class="accordion-head">
                   <span>Sevärdigheter/Turistfällor enligt Anders Wiman</span>
@@ -373,7 +380,7 @@
                   </div>
                 </div>
               </article>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -644,6 +651,18 @@
     <script src="assets/js/video.js"></script>
     <script src="assets/js/slick-slider.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script>
+      var image =document.getElementById("image-container");
+      var image_pop = document.getElementById("popup-image");
+      image.onclick=()=>{
+        document.getElementById("popup-image").style.display = "block";
+        
+      }
+
+      image_pop.onclick=()=>{
+        document.getElementById("popup-image").style.display = "none";
+      }
+    </script>
     <script>
         //according to loftblog tut
       $('.nav li:first').addClass('active');
