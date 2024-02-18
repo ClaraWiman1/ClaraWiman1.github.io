@@ -1521,7 +1521,7 @@ responsive
 }
 #image-container img {
   rotate: -90deg !important;
-  width: auto;
+  /* width: auto; */
   transition: 0.2s linear;
 }
 
