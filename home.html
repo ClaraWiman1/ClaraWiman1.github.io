@@ -643,10 +643,8 @@
     </section>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
     <script src="assets/js/isotope.min.js"></script>
     <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
     <script src="assets/js/tabs.js"></script>
     <script src="assets/js/video.js"></script>
     <script src="assets/js/slick-slider.js"></script>
@@ -654,10 +652,12 @@
     <script>
       var image =document.getElementById("image-container");
       var image_pop = document.getElementById("popup-image");
-      image.onclick=()=>{
-        document.getElementById("popup-image").style.display = "block";
-        
-      }
+
+      // if(window.screen.width>780){
+        image.onclick=()=>{
+          document.getElementById("popup-image").style.display = "block";
+        }
+      // }
 
       image_pop.onclick=()=>{
         document.getElementById("popup-image").style.display = "none";
