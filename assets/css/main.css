@@ -1570,7 +1570,6 @@ responsive
 /*ta bort popup på telefon*/
 @media (max-width: 768px) {
   #popup-image img {
-    /* display: none; */
     width: 75%;
     top: 25%;
     left: 12.5%;
